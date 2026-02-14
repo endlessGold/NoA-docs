@@ -13,7 +13,8 @@
 
 ## GitBook에서 연결 절차
 1) 초대 링크로 Space 참여
-- 제공된 초대 링크로 들어가 Space에 Join 합니다.
+- 링크로 들어가 Space에 Join 합니다.
+- `https://app.gitbook.com/invite/1ljO43yjJS0iDBIl4glG/Th0wwvMD8BRoyLeEW13N`
 
 2) GitHub 연동
 - Space 설정 → Integrations(또는 Git Sync) → GitHub 연결
@@ -26,7 +27,8 @@
 - 동기화 방향: “GitHub → GitBook”을 기본으로 설정합니다.
 
 4) 동기화 확인
-- `endlessGold/NoA-docs`의 `README.md` 또는 `Docs/README.md`를 수정해 push
+- `endlessGold/NoA`에서 문서(`README.md`, `SPEC.md`, `API.md`, `Docs/**`)를 수정하고 push
+- GitHub Actions가 `endlessGold/NoA-docs`에 자동 커밋/푸시를 생성하는지 확인
 - GitBook에서 자동 반영되는지 확인합니다(필요 시 GitBook UI에서 수동 Sync 버튼 사용).
 
 ## OpenAPI(예시)로 동기화 확인
